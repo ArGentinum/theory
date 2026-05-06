@@ -1,0 +1,43 @@
+﻿Tag basic commands
+git tag <tagname> : create a lightweight tag.
+git tag : list tags
+git show <tagname> : show tag details
+git tag v1,1 1a2b3c4d : tag a specific commit
+git push origin v1.0 : push tags to remote repo
+git push -tags : push all local tags to remote repo
+
+
+WHAT IS A TAG?
+->A tag in git is like a label or bookmark for a specific commit.
+->tags are most often used to mark important points in  you project history like releases(v1.0 or v2.0).
+->tags are a simple and reliable wat to keep track of versions and share them with your team or users.
+->tags are a simple and reliable way to keep track of versions and share them with your team or users
+Some common tag types include:
+->releases: tags let you mark when your project5 is ready for release, so you can always find that exact version later.
+->milestones:  use tags to highlight major milestones, like when a big feature is finisged or a bug is fixed.
+->Hotfixes: If you need to fix an old version, tags make it easy to check out and patch the right code.
+
+
+LIGHTWEIGHT TAG:
+->A lightweight tag is just a name for a commit.
+->it's a quick and simple, but does not store extra information.
+->just a simple name for a commit (no extra info, like a bookmark).
+Eg: git tag v1.0.2
+
+ANNOTATED TAG: 
+->stores author, date and message.
+->Recommended for releases and sharing with others.
+Ex: git tag -a v1.0.23 -m "version 1.o0 release"
+
+PUSH TAGS TO REMOTE
+By default tags exist on your local computer.
+If you want others to see yout tags, you need to push them to your remote repository.
+If you don't push your tags, only you will see them and only locally.
+To push a single tag to your remote repository :  git push origin v1.0
+NOTE: pushing commits with 'git push '  doews not push your tags!
+
+
+
+
+ 
+

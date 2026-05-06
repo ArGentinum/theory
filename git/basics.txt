@@ -1,0 +1,11 @@
+﻿Basic commands
+git restore -staged <file>:  unstage a file
+git add -A  : add all the files in the current working directory to the staging area
+git commit -a -m "message" : commit all changes without staging(commits all modified and deleted files and not the new/untracked files)
+git commit : multiline messages while commiting using the default editor
+git log : shows the commit history on the repository
+git log -oneline : shows commit history on one line.
+git log -stat : shows which files are modified in each commit.
+git commit -a -m "commit message" : commit directlty without staging files.
+
+
