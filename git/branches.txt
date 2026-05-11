@@ -1,12 +1,14 @@
-﻿BASIC COMMANDS:
+﻿iBASIC COMMANDS:
 Git branch <branchname> : creates a branch
 Git switch <branchname> : switches branches
 Git branch -d <branchname> : deletes a branch
 Git merge <branchname>: : merges branches with the current branch
+git branch -m <branchname> : modifies a current branch's name
+git branch -m <old-branchname> <new-branchname> : modifies a branchname in a working directory
 
 ->staging area is shared across all the branches in a repository
 ->branches in git track commits made in respective branches 
 ->the staging area and working directory are not branch specific.
 
-                                                                   BRANCHES IN GIT
+                                                                  
 

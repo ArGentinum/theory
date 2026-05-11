@@ -1,0 +1,46 @@
+                                STASH
+
+KEY COMMANDS:
+git stash: stash your changes
+git stash list : lists all the stashes
+git stash branch <branchname> : create a branch from a stash
+git stash push -m "message" : stash with a message
+git stash push -m "wip: homepage redisgn" : stash with a message
+git stash show : show stash details
+git stash show -p: shows exact lines changed in the most recent stash
+git stash apply : apply the latest stash
+git stash apply stash@{n} : apply a specific stash
+git stash pop : apply the latest stash and remove it from the stack
+git stash drop stash@{0} : deletes a specific stash when we no longer need it
+git stash clear : clears all the stashes at once
+git stash branch new-feature stash@{0} : creates a new branch and applies stashed changed to it
+
+
+
+WHAT IS GIT STASH?
+->sometimes we need to save our uncommited changes and return to a clean woerking directory
+->we can come back and restore changes later
+->here are some use cases:
+1.switch brnaches safely
+2.handle emergencies
+3.avoid messy commits or losing changes
+
+
+WHAT FILES GET STASHED?
+->tracked files(both staged and unstaged) are stashed by default
+->untracked files are not stashed by default
+->to stash untracked files, use git stash -u
+
+
+WHAT IS A STASH STACK?
+->each time we run 'git stash' , our changes are save don top of a stack.
+->the most recent stash in on top, and you can apply or drop stashes from the top down, or pick a specific one from the list.
+
+
+BEST PRACTICES FOR STASHING
+->use clear messages when stashing : git stash push -m "WIP: feature name"
+->dotn use stashes as long term storage  - commit your work when possible
+->check your stash list regularly and clean up old stashes you no longer need
+
+
+NOTE: STASHES ARE USEFUL FOR TEMPORARY WORK,BUT NOT A REPLACEMENT FOR COMMITS!:
