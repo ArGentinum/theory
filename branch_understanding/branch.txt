@@ -1,0 +1,9 @@
+                         GIT BRANCHES
+
+in git a branch is a seperate workspace where you can make changes and try new ideas without affecting the main project. Think of it as a parallel universe for your code.
+
+REASONS TO CREATE A BRANCH
+->devoloping a new feature
+->fixing a bug
+->experimenting with ideas
+
