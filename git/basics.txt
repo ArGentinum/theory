@@ -9,3 +9,8 @@ git log -stat : shows which files are modified in each commit.
 git commit -a -m "commit message" : commit directlty without staging files.
 
 
+
+.gitignore :
+
+it is a hidden file (. extenstion in unix systems are hidden files) that git uses to ignore specified files/folders that are mentioned in the .gitignore file.
+

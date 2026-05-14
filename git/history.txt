@@ -1,0 +1,13 @@
+                                  GIT HISTORY
+
+git log - Show full commit history
+git log --oneline - Show a summary of commits
+git show <commit> - Show details of a specific commit
+git diff - See unstaged changes
+git diff --staged - See staged changes
+git diff <commit1> <commit2> : see what changed between any two commits
+git log --author="Alice" : show the commit history of the specified author
+git log --since="2 weeks ago": see the commits made two weeks ago
+git log --stat : see how many lines are changed in each files and what files are changed in each commit
+git log --graph : see a simple ASCII graph of your branch history (great for visualizing merges)
+

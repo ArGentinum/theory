@@ -1,0 +1,6 @@
+                                GIT MERGE
+
+git merge: merge a branch into your current branch
+git merge --no-ff : always create a merge commit when merging
+git merge --squash: combines changes into a single commit
+git merge --abort : abort a merge in progress
