@@ -1,0 +1,18 @@
+                            GITHUB FLOW
+
+->The github flow is a simple, effective workflow for collaborating on code usign git and github
+->it helps teams work together smoothly, experiment safely, and deliver new features or fixes quickly
+
+
+
+HERE's HOW THE GITHUB FLOW WORKS:
+
+->create a branch: start new work without affecting the main code
+->make commits: save progress as you make changes
+->open a pull request : ask others to review your work
+->review: discuss and improve changes together
+->deploy: test your changes before merging
+->merge : add your unfinished work to the main branch
+->deploy: test your changes before merging
+->merge : add your unfinished work to the main branch
+

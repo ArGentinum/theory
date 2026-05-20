@@ -1,0 +1,17 @@
+                          FETCH
+
+git fetch downloads new data from a remote repository, but does not change your working files or directory. it lets us see what others have puyshed before you merge or pull.
+
+eg : git fetch origin 
+
+
+
+                         MERGE
+merge combines the current branch, witha  specified branch
+eg : git merge <branchname that is to be merged>
+
+
+                          PULL
+->pull is a combination of fetch and merge
+->used to pull all the changes from a remote repository into the branch you are working on
+

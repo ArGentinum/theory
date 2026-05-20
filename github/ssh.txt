@@ -1,0 +1,20 @@
+                              SSH
+
+SSH(secure shell) is a way to connect securely to remote computers and services, like git repositories.
+
+ssh uses a pair of keys(public and private) to make sure only you can access your code
+
+
+
+PROCEDURE TO SET UP SSH KEYS
+
+1.enable ssh agent : eval $(ssh-agent -s)
+2.generating an ssh key pair : ssh-keygen -t rsa -b 4096 -C "your@email.com"
+3.adding key to the ssh agent : ssh-add ~/.ssh/id_rsa
+
+
+
+LISTING LOADED SSH KEYS: ssh-add -l
+
+REMOVE SSH KEY FROM AGENT: ssh-add -d ~/.ssh/id_rsa
+

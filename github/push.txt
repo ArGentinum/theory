@@ -1,0 +1,13 @@
+                             PUSH
+
+git push origin : pushes current branch to the remote repository named origin
+
+git push --force origin feature-branch: force pushing to remote repo and overoverwriting changes on the remote with the local changes
+
+git push --force-with-lease : safer force push
+
+git push --tags : push all tags to github
+
+git push origin v1.0 : push a specific tag on github
+
+
