@@ -1,0 +1,19 @@
+                                      REVERT
+
+commands:
+git revert HEAD : revert the latest commit
+git revert <commit> : revert a specific commit
+git revert HEAD~2 : revert a commit further back in history
+git revert --no-edit : skip a commit 
+git tag --oneline : shows commit history in one line
+
+ 
+
+
+                 ***NOTE***
+->use git revert instead of git reset when you want to undo a previous commit, but still keep the commit history intact
+->use git log --oneline to find the commit you want to undo.
+use git revert HEAD --no-edit to create a new commit that reverses the changes
+->If you get an error message saying "error: could not revert...", try using git revert --abort to abort the revert process.
+->If you get an error message saying "error: could not apply...", try using git 
+revert --continue to continue the revert process.

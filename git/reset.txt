@@ -1,0 +1,15 @@
+                            RESET
+
+->Git reset command moves you current branch(HEAD) toa  different commit
+->Depending on the option it can also change which changes are staged or even delete changes from your working directory
+->use it to undo commits, unstage files or clean up your history
+
+COMMANDS
+git reset --soft <commit>: move HEAD to commit and keep the changes staged
+git reset --mixed <commit> :move HEAD to commit, unstage
+git reset --hard <commit> : Move HEAD to commit, discard all changes
+git reset <file> : unstage a file
+git log --oneline : show commit history
+
+
+
