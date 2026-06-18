@@ -146,6 +146,9 @@ A person or thing seen as comparable to another. (general)
 
 * simian :monkeys/apes
 
+* cantaloupe :muskmelon
+
+* paisan : fellow countryman or pal
 
 
 
